@@ -1,0 +1,10 @@
+{
+    "project_path": "",
+    "env_file": "~/.claude/skills/web-automator/config/.env",
+    "default_llm": "anthropic",
+    "default_model": "MiniMax-M3",
+    "base_url": "https://api.minimaxi.com/anthropic",
+    "headless": false,
+    "max_steps": 20,
+    "use_system_chrome": true
+}

@@ -69,6 +69,9 @@ In Claude Code, type:
 /web-automator Open DeepSeek chat, send "hello", wait for reply
 /web-automator Scrape the top 10 titles from Hacker News front page
 ```
+<img width="1638" height="846" alt="image" src="https://github.com/user-attachments/assets/39630ed0-0807-438f-afc7-b8b1f213e3c2" />
+<img width="1734" height="1362" alt="image" src="https://github.com/user-attachments/assets/485bea22-16be-41cc-b51a-85b637dd0c77" />
+
 
 ## Supported LLM Providers
 

@@ -69,7 +69,12 @@ async def run_task(task: str, config: dict) -> dict:
         llm = get_llm(config)
 
         if config.get("use_system_chrome", True):
-            browser = Browser.from_system_chrome()
+            try:
+                browser = Browser.from_system_chrome()
+            except Exception as chrome_err:
+                print(f"[WARN] System Chrome failed: {chrome_err}")
+                print("[WARN] Falling back to new browser instance")
+                browser = Browser()
         else:
             browser = Browser()
 

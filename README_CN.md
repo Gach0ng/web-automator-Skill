@@ -67,6 +67,8 @@ bash ~/.claude/skills/web-automator/scripts/check_env.sh
 /web-automator 打开 deepseek 对话框，发送"你好"，等待回复
 /web-automator 抓取 Hacker News 首页前10条标题
 ```
+<img width="1638" height="846" alt="image" src="https://github.com/user-attachments/assets/39630ed0-0807-438f-afc7-b8b1f213e3c2" />
+<img width="1734" height="1362" alt="image" src="https://github.com/user-attachments/assets/485bea22-16be-41cc-b51a-85b637dd0c77" />
 
 ## 支持的 LLM Provider
 
